@@ -1,0 +1,5 @@
+(executables
+  (names perf_pipeline)
+  (libraries core core_unix.command_unix core_bench core_unix.time_stamp_counter)
+  (preprocess (pps ppx_jane))
+  )
